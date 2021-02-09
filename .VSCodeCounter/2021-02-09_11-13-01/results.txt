@@ -1,0 +1,36 @@
+Date : 2021-02-09 11:13:01
+Directory : c:\Users\Jérémy\Documents\GitHub\salutmicka
+Total : 7 files,  543 codes, 11 comments, 33 blanks, all 587 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |        497 |          0 |          2 |        499 |
+| SQL        |          1 |         23 |          6 |         16 |         45 |
+| JavaScript |          3 |         19 |          5 |         13 |         37 |
+| Markdown   |          1 |          4 |          0 |          2 |          6 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |          7 |        543 |         11 |         33 |        587 |
+| controllers                                                                   |          1 |          3 |          0 |          1 |          4 |
+| routes                                                                        |          1 |          3 |          1 |          2 |          6 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\README.md                         | Markdown   |          4 |          0 |          2 |          6 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\app.js                            | JavaScript |         13 |          4 |         10 |         27 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\controllers\articlesController.js | JavaScript |          3 |          0 |          1 |          4 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\data.sql                          | SQL        |         23 |          6 |         16 |         45 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\package-lock.json                 | JSON       |        482 |          0 |          1 |        483 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\package.json                      | JSON       |         15 |          0 |          1 |         16 |
+| c:\Users\Jérémy\Documents\GitHub\salutmicka\routes\articlesRoute.js           | JavaScript |          3 |          1 |          2 |          6 |
+| Total                                                                         |            |        543 |         11 |         33 |        587 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

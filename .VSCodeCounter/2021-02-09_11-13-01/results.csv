@@ -1,0 +1,9 @@
+"filename", "language", "JSON", "Markdown", "JavaScript", "SQL", "comment", "blank", "total"
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\README.md", "Markdown", 0, 4, 0, 0, 0, 2, 6
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\app.js", "JavaScript", 0, 0, 13, 0, 4, 10, 27
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\controllers\articlesController.js", "JavaScript", 0, 0, 3, 0, 0, 1, 4
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\data.sql", "SQL", 0, 0, 0, 23, 6, 16, 45
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\package-lock.json", "JSON", 482, 0, 0, 0, 0, 1, 483
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\package.json", "JSON", 15, 0, 0, 0, 0, 1, 16
+"c:\Users\Jérémy\Documents\GitHub\salutmicka\routes\articlesRoute.js", "JavaScript", 0, 0, 3, 0, 1, 2, 6
+"Total", "-", 497, 4, 19, 23, 11, 33, 587

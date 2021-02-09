@@ -11,8 +11,13 @@ app.use(express.static(path.join(__dirname,'public')));
 
 
 //ROUTE
+const articles = require('./routes/articlesRoute')
 
 //CONTROLERS
+app.use('/liste-des-articles', articles)
+
+
+
 app.get('/', (req,res) => {
     res.send('Connecté')
 })
