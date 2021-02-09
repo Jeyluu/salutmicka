@@ -1,20 +1,22 @@
 <%- include('partials/header.ejs') %>
+
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <h1>Le temps neigeux</h1>
-                <div class="card" style="width: 18rem;">
-                    <img src="https://images.scribblelive.com/2021/2/9/b172c5c6-5a22-42bf-bcea-4db3e333ec87.jpg"
-                        class="card-img-top" alt="neige-bre">
-                    <div class="card-body">
-                        <h5 class="card-title">Neige</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+                <% articles.forEach(function(article) {%>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="<%=article.image%>"
+                                class="card-img-top" alt="neige-bre">
+                            <div class="card-body">
+                                <h5 class="card-title"><%=article.titre%></h5>
+                                <p class="card-text"><%=article.description%></p>
+                                <a href="#" class="btn btn-primary">En savoir plus</a>
+                            </div>
+                        </div>
+                        <%});%>
+                    
             </div>
         </div>
 
