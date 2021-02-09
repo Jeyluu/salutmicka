@@ -1,0 +1,2 @@
+# salutmicka
+ Exercice pratique Mysql
