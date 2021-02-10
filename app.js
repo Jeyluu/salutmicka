@@ -30,6 +30,10 @@ db.connect(
 global.querysql = util.promisify(db.query).bind(db)
 
 
+// Middleware - BodyParser
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
+
 // EJS
 app.set('view engine', 'ejs');
 
