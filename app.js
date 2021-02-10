@@ -12,6 +12,7 @@ require('dotenv').config()
 //MYSQL
 const db = mysql.createConnection(
     {
+
         host: process.env.DB_HOST,
         user: process.env.DB_USER,
         password: process.env.DB_PASS,
@@ -41,12 +42,14 @@ app.set('view engine', 'ejs');
 //DOSSIER STATIC PUBLIC
 app.use(express.static(path.join(__dirname, 'public')));
 
+/*---------------------------------------------------------------*/
 
 //ROUTE
 const articles = require('./routes/articlesRoute')
-
+const auteurs = require('./routes/auteursRoute');
 //CONTROLERS
-app.use('/liste-des-articles', articles)
+app.use('/liste-des-articles', articles);
+app.use('/liste-des-auteurs', auteurs)
 
 
 
